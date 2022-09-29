@@ -7,8 +7,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         if (num > 0) {
-            System.out.println("Positive number");
+            System.out.print("Correct number");
         } else
-            System.out.println("Negative number");
+            System.out.print("Incorrect number");
     }
 }
